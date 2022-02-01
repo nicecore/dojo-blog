@@ -7,7 +7,7 @@ const Home = () => {
     const { data: blogs, isPending, Error } = useFetch('http://localhost:8000/blogs')
 
 
-    // function
+    // function - fill in later what it does
 
     return ( 
         <div className="home">
